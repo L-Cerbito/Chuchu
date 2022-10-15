@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Savings Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <center> 
+    <style>
+        body {
+          background-image: url('pic.webp');
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        </style>
+  <br>
+  <br>
+  <center>
+    <h1 class="h1"> Welcome to Savings Tracker</h1></center>
+    
+    <p></p>
+    <center><h1 class="h2">Track your savings now!</h1>
+    </center>
+    
+
+    <input type="date" placeholder="MM/DD/YY" style="width: 10cm; font-size: 25px; padding: 6px;" name="date" id="date">
+
+
+    <br>
+    <br>
+    <input type="number" placeholder="Money Deposited" name="money" id="money"style="width:10cm; font-size: 25px; padding: 6px;" >
+    <br>
+    <br>
+
+    <input type="button" style="font-size: 25px; padding: 6px; width: 5cm;" value="Enter" onclick="addRow()">
+    <center>
+        <br>
+        <br>
+        <br>
+        <br>
+        <table class="table" id="table">
+            <tr>
+
+            <th>Date</th>
+            <th>Money deposited</th>
+            <th>Total money</th>
+
+        </tr>
+            
+    </table>
+</center>
+<script src="index.js"></script>
+
+</center>
+    </body>
+</html>

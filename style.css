@@ -1,0 +1,29 @@
+td, th{
+    border: 3px solid;
+    padding: 15px;
+    background-color: #5D737E;
+    color:#FCFFFD;
+    font-family: monospace;
+}
+
+.table{
+    width: 35cm;
+    font-size: 25px;
+}
+
+.h1{
+    font-family: 'Zilla Slab', serif;
+    font-size: 50px;
+    border: 1px;
+    background-color: #64B6AC;
+    border-radius: 50px ;
+    padding:25px;
+    color: #DAFFEF;
+}
+
+.h2{
+    font-size: 35px;
+    color:#21282c;
+    background-color: whitesmoke;
+    
+}
